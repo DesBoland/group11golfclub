@@ -27,7 +27,6 @@ ul.tabbernav
 {
  margin:0;
  padding: 3px 0;
-/* border-bottom: 2px solid darkgreen;*/
  font: bold 12px Verdana, sans-serif;
 }
 
@@ -43,7 +42,6 @@ ul.tabbernav li a
  padding: 3px 0.5em;
  margin-left: 3px;
  border: 2px solid darkgreen;
- /*border-bottom: none;*/
  background: #DDE;
  text-decoration: none;
 }
@@ -77,8 +75,6 @@ ul.tabbernav li.tabberactive a:hover
   --------------------------------------------------*/
 .tabberlive .tabbertab {
  padding:5px;
- /*border:1px solid #aaa;
- border-top:0;*/
 background-color:white;
 }
 

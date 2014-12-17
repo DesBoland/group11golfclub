@@ -1,8 +1,8 @@
 
 body 
 { 
-background-image:url("../Images/grass.jpg");
-background-color:#c9ffde;
+	background-image:url("../Images/grass.jpg");
+	background-color:#c9ffde;
 }
 
 a 
@@ -56,67 +56,62 @@ a:hover#menu-icon {
 
 }
 
-ul {
-
+ul 
+{
 	list-style: none;
-
 }
 
 li {
-
 	display: inline-block;
 	float: left;
 	padding: 10px
-
 }
 
-.current {
-
+.current 
+{
 	color: orange;
 	text-decoration:underline;
-
 }
 
-section {
-
+section 
+{
 	margin: 80px auto 40px;
 	max-width: 980px;
 	position: relative;
 	padding: 20px
-
 }
 
-h1 {
-
+h1 
+{
 	font-size: 2.2em;
 	color: orange;
 	line-height: 1.25em;
 	margin: 20px 0 ;
-
 }
-h2,h3{
-color: orange;
-}
-p {
 
+h2,h3
+{
+	color: orange;
+}
+
+p 
+{
 	line-height: 1.25em;
 	margin-bottom: 15px;
 	color:darkgreen;
-
 }
 
-.slideshow p {
-font-size: 1.50em;
+.slideshow p 
+{
+	font-size: 1.50em;
 	line-height: 1.25em;
 	margin-bottom: 15px;
 	color:darkgreen;
-font-weight:bolder;
+	font-weight:bolder;
 }
+
 .slideshow
 {
-   /* position: relative;*/
-  /*  max-width:95% auto;
-	min-height:100%;*/
 	z-index:1;
 }
 
@@ -125,85 +120,78 @@ font-weight:bolder;
     position: absolute;
 	min-width:100%;
 	min-height:100%;
-	/*zoom:2;*/
     z-index:-1;
-	/*border-width:5px;	
-    border-style:double;
-	border-color:darkgreen;*/
 }
 
 fieldset
 {
-max-width:80%;
-min-width:240px;
-border-color:orange;
+	max-width:80%;
+	min-width:240px;
+	border-color:orange;
 }
 
 
-#mainDiv{
-margin:0 auto;
-width: 1000px;
+#mainDiv
+{
+	margin:0 auto;
+	width: 1000px;
 	min-height:800px;
-		background-image:url("../Images/background.jpg");
+	background-image:url("../Images/background.jpg");
 	background-repeat: repeat;
 }
 
-  #map-canvas {
-        width: 800px;
-        height: 400px;
-		margin: 0 auto;
-      }
-
+ #map-canvas 
+ {
+    width: 800px;
+	height: 400px;
+	margin: 0 auto;
+}
 
 footer
 {
-border-top: 4px solid darkgreen;
-background-color:#fff;
-bottom:0;
+	border-top: 4px solid darkgreen;
+	background-color:#fff;
+	bottom:0;
 }
 
 
 #footertext
 {
-font-family:veranda,sans-serif;
-font-size: 1em;
-color:orange;
+	font-family:veranda,sans-serif;
+	font-size: 1em;
+	color:orange;
 }
 
 fieldset
 {
-border: 4px solid darkgreen;
-background-color:white;
-margin:0 auto;
+	border: 4px solid darkgreen;
+	background-color:white;
+	margin:0 auto;
 }
-
-
-
-
-
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 640px) {
-#mainDiv{
-width:95%;
-
-}
-	header {
-
+@media only screen and (max-width : 640px) 
+{
+	#mainDiv
+	{
+		width:95%;
+	}
+	
+	header 
+	{
 		position: absolute;
-
 	}
 
-	#menu-icon {
-
+	#menu-icon 
+	{
 		display:inline-block;
 		width: 200px;
-	height: 40px;
-	background :#666 url(../Images/menu-icon.png);
+		height: 40px;
+		background :#666 url(../Images/menu-icon.png);
 	}
 
-	nav ul, nav:active ul { 
-
+	nav ul, nav:active ul 
+	{ 
 		display: none;
 		position: absolute;
 		padding: 20px;
@@ -213,26 +201,25 @@ width:95%;
 		top: 30px;
 		width: 50%;
 		border-radius: 8px 8px 8px 8px;
-
 	}
 
-	nav li {
-
+	nav li 
+	{
 		text-align: left;
 		width: 100%;
 		padding: 10px 0;
 		margin: 0;
-
 	}
 
-	nav:hover ul {
-
+	nav:hover ul 
+	{
 		display: block;
-
 	}
-	
-	#map-canvas {
-        width: 400px;
-        height: 200px;
+		
+	#map-canvas 
+	{
+		width: 400px;
+		height: 200px;
 		margin: 0 auto;
-      }
+	}
+}	
